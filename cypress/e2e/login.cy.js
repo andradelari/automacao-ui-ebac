@@ -12,4 +12,5 @@ describe('Funcionalidade: Login', () => {
         cy.get('#btn-entrar').click()
         cy.get('#mensagem-sucesso').should('contain', 'Bem vindo')
     })
+
 })

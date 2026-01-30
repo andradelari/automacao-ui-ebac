@@ -28,4 +28,5 @@ describe('Funcionalidade: Página de Produtos', () => {
         cy.get('.btn-adicionar-carrinho').last().click()
         cy.get('.carrinho-contador').should('contain', '3')
     })
+    
 })

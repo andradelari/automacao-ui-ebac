@@ -14,4 +14,5 @@ describe('Funcionalidade: Pré-Cadastro', () => {
         cy.get('.btn-cadastrar').click()
         cy.url().should('include', '/dashboard')
     })
+    
 })
